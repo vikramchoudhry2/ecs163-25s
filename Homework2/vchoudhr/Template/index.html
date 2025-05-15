@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Music & Mental Health Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f7f7f7;
+    }
+    .chart-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin: 20px;
+    }
+    svg {
+      background-color: #fff;
+      margin-bottom: 40px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    #sankey {
+      margin: 20px auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="text-align:center;">Music & Mental Health Dashboard</h1>
+
+  <div class="chart-container">
+    <div>
+      <h3>Heatmap: Genre vs Mental Health</h3>
+      <svg id="heatmap" width="600" height="400"></svg>
+      <div id="heatmap-legend"></div>
+    </div>
+    <div>
+      <h3>Scatter Plot: Age vs Anxiety</h3>
+      <svg id="scatter" width="600" height="400"></svg>
+      <div id="scatter-legend"></div>
+    </div>
+  </div>
+
+  <h3 style="text-align:center;">Sankey Diagram: Genre → Most Severe Issue</h3>
+  <svg id="sankey" width="1000" height="500"></svg>
+  <div id="sankey-legend" style="width:1000px; margin: 0 auto;"></div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
+  <script>
+    d3.sankey = d3sankey.sankey;
+    d3.sankeyLinkHorizontal = d3sankey.sankeyLinkHorizontal;
+  </script>
+  <script src="main.js"></script>
+</body>
+</html>
