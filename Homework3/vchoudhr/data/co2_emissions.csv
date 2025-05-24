@@ -1,0 +1,113 @@
+country,code,year,emissions
+United States,USA,1990,5120
+United States,USA,1995,5420
+United States,USA,2000,5840
+United States,USA,2005,5980
+United States,USA,2010,5610
+United States,USA,2015,5240
+United States,USA,2020,4720
+China,CHN,1990,2400
+China,CHN,1995,3250
+China,CHN,2000,3680
+China,CHN,2005,5890
+China,CHN,2010,8950
+China,CHN,2015,10650
+China,CHN,2020,11680
+India,IND,1990,690
+India,IND,1995,870
+India,IND,2000,1050
+India,IND,2005,1340
+India,IND,2010,1750
+India,IND,2015,2290
+India,IND,2020,2620
+Russia,RUS,1990,2380
+Russia,RUS,1995,1820
+Russia,RUS,2000,1660
+Russia,RUS,2005,1720
+Russia,RUS,2010,1740
+Russia,RUS,2015,1670
+Russia,RUS,2020,1580
+Japan,JPN,1990,1160
+Japan,JPN,1995,1240
+Japan,JPN,2000,1280
+Japan,JPN,2005,1320
+Japan,JPN,2010,1250
+Japan,JPN,2015,1210
+Japan,JPN,2020,1080
+Germany,DEU,1990,1020
+Germany,DEU,1995,910
+Germany,DEU,2000,860
+Germany,DEU,2005,840
+Germany,DEU,2010,810
+Germany,DEU,2015,780
+Germany,DEU,2020,680
+Brazil,BRA,1990,210
+Brazil,BRA,1995,290
+Brazil,BRA,2000,350
+Brazil,BRA,2005,380
+Brazil,BRA,2010,450
+Brazil,BRA,2015,520
+Brazil,BRA,2020,470
+United Kingdom,GBR,1990,580
+United Kingdom,GBR,1995,550
+United Kingdom,GBR,2000,560
+United Kingdom,GBR,2005,570
+United Kingdom,GBR,2010,510
+United Kingdom,GBR,2015,420
+United Kingdom,GBR,2020,350
+France,FRA,1990,390
+France,FRA,1995,380
+France,FRA,2000,400
+France,FRA,2005,410
+France,FRA,2010,380
+France,FRA,2015,340
+France,FRA,2020,290
+Italy,ITA,1990,430
+Italy,ITA,1995,440
+Italy,ITA,2000,460
+Italy,ITA,2005,490
+Italy,ITA,2010,440
+Italy,ITA,2015,370
+Italy,ITA,2020,330
+Canada,CAN,1990,470
+Canada,CAN,1995,510
+Canada,CAN,2000,560
+Canada,CAN,2005,580
+Canada,CAN,2010,560
+Canada,CAN,2015,550
+Canada,CAN,2020,540
+South Korea,KOR,1990,260
+South Korea,KOR,1995,380
+South Korea,KOR,2000,450
+South Korea,KOR,2005,500
+South Korea,KOR,2010,590
+South Korea,KOR,2015,630
+South Korea,KOR,2020,650
+Australia,AUS,1990,290
+Australia,AUS,1995,320
+Australia,AUS,2000,360
+Australia,AUS,2005,390
+Australia,AUS,2010,410
+Australia,AUS,2015,390
+Australia,AUS,2020,370
+Spain,ESP,1990,230
+Spain,ESP,1995,260
+Spain,ESP,2000,310
+Spain,ESP,2005,370
+Spain,ESP,2010,310
+Spain,ESP,2015,280
+Spain,ESP,2020,240
+Mexico,MEX,1990,310
+Mexico,MEX,1995,350
+Mexico,MEX,2000,400
+Mexico,MEX,2005,440
+Mexico,MEX,2010,470
+Mexico,MEX,2015,490
+Mexico,MEX,2020,440
+Indonesia,IDN,1990,160
+Indonesia,IDN,1995,240
+Indonesia,IDN,2000,310
+Indonesia,IDN,2005,380
+Indonesia,IDN,2010,450
+Indonesia,IDN,2015,530
+Indonesia,IDN,2020,610 
