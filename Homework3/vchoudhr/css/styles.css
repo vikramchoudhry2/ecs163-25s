@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.visualization {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.visualization h2 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.visualization-row {
+    display: flex;
+    gap: 20px;
+}
+
+.visualization-row .visualization {
+    flex: 1;
+}
+
+.controls {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Visualization specific styles */
+svg {
+    display: block;
+    margin: 0 auto;
+}
+
+.country {
+    cursor: pointer;
+    stroke: #fff;
+    stroke-width: 0.5px;
+}
+
+.country:hover {
+    stroke: #333;
+    stroke-width: 1px;
+}
+
+.country.selected {
+    stroke: #333;
+    stroke-width: 2px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #ccc;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-size: 10px;
+    fill: #777;
+}
+
+.line {
+    fill: none;
+    stroke-width: 2px;
+}
+
+.circle {
+    stroke: #fff;
+    stroke-width: 1px;
+}
+
+.tooltip {
+    position: absolute;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    pointer-events: none;
+    font-size: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.brush .selection {
+    fill: #0066ff;
+    fill-opacity: 0.1;
+    stroke: #0066ff;
+    stroke-width: 1px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input[type="range"] {
+    width: 200px;
+} 

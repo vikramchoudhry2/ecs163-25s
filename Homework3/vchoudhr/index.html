@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Interactive Data Visualization Dashboard</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<header>
+		<h1>Global CO2 Emissions Dashboard</h1>
+	</header>
+	
+	<div class="dashboard-container">
+		<div class="visualization" id="overview-vis">
+			<h2>Overview: Global CO2 Emissions by Country</h2>
+			<div class="controls">
+				<label for="year-slider">Year: <span id="selected-year">2000</span></label>
+				<input type="range" id="year-slider" min="1990" max="2020" value="2000">
+				<button id="play-button">Play</button>
+			</div>
+		</div>
+		
+		<div class="visualization-row">
+			<div class="visualization" id="detail-vis">
+				<h2>Country Emissions Over Time</h2>
+				<div id="country-details"></div>
+			</div>
+			
+			<div class="visualization" id="advanced-vis">
+				<h2>Emissions vs GDP</h2>
+				<div class="controls">
+					<button id="reset-zoom">Reset Zoom</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<p>Data Visualization Dashboard - ECS163 Homework 3</p>
+	</footer>
+
+	<!-- Load D3.js -->
+	<script src="https://d3js.org/d3.v7.min.js"></script>
+	
+	<!-- Load our scripts -->
+	<script src="js/overview.js"></script>
+	<script src="js/detail.js"></script>
+	<script src="js/advanced.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
